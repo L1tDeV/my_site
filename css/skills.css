@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+:root{
+    --nav-clr: #05131E;
+    --body-clr: #08182A;
+    --prpl: #600FC8;
+    --active-body: #213545;
+    --active-prpl: #B786F5;
+    --html-skill: 60%;
+    --react-skill: 40%;
+    --css-skill: 55%;
+    --php-skill: 30%;
+    --js-skill: 40%;
+    --figma-skill: 60%;
+    --python-skill: 60%;
+    --github-skill: 50%;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--body-clr);
+}
+nav{
+    background-color: var(--nav-clr);
+    color: white;
+    width: 100%;
+    height: 8vh;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    list-style-type: none;
+}
+
+.nav_menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+.nav_menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_menu li{
+    float: left;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+.logo{
+    margin-left: 4vw;
+    font-size: 50px;
+}
+.nav_btn{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav_btn:hover{
+    color: var(--prpl);
+}
+
+.logo_block{
+    display: inline-block;
+    margin-top: -30px;
+    padding-top: 0;
+}
+
+.logo_block a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_block{
+    display: inline-block;
+    float: right;
+    margin-right: 2vw;
+}
+
+.ab_txt{
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    line-height: 20px;
+}
+
+.me_txt{
+    color: var(--prpl);
+}
+
+main{
+    color: white;
+}
+
+.main_txt{
+    text-align: center;
+}
+
+.main_txt h2{
+    font-size: 400%;
+    font-weight: 700;
+    line-height: 50px;
+    color: transparent;
+    -webkit-text-stroke: 0.7px var(--prpl);
+}
+
+.tbl_skills{
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.tbl_skills td{
+    width: 30vw;
+}
+
+.skill{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+}
+
+.txt_skill{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill h2{
+    display: inline;
+    font-size: 200%;
+}
+
+.skill h3{
+    display: inline;
+    font-size: 200%;
+}
+
+.bord_skill{
+    display: inline-block;
+    width: 80%;
+    height: 15px;
+    margin-top: 5px;
+    background-color: transparent;
+    padding: 5px 5px 5px 5px;
+    border: 5px solid var(--prpl);
+    border-radius: 20px;
+}
+
+.line_skill_html{
+    width: var(--html-skill);
+    height: 15px;
+    background-color: var(--prpl);
+    border-radius: 20px;
+}
+
+.line_skill_react{
+    width: var(--react-skill);
+    height: 15px;
+    background-color: var(--prpl);
+    border-radius: 20px;
+}
+
+.line_skill_css{
+    width: var(--css-skill);
+    height: 15px;
+    background-color: var(--prpl);
+    border-radius: 20px;
+}
+
+.line_skill_figma{
+    width: var(--figma-skill);
+    height: 15px;
+    background-color: var(--prpl);
+    border-radius: 20px;
+}
+
+.line_skill_php{
+    width: var(--php-skill);
+    height: 15px;
+    background-color: var(--prpl);
+    border-radius: 20px;
+}
+
+.line_skill_js{
+    width: var(--js-skill);
+    height: 15px;
+    background-color: var(--prpl);
+    border-radius: 20px;
+}
+
+.line_skill_python{
+    width: var(--python-skill);
+    height: 15px;
+    background-color: var(--prpl);
+    border-radius: 20px;
+}
+
+.line_skill_github{
+    width: var(--github-skill);
+    height: 15px;
+    background-color: var(--prpl);
+    border-radius: 20px;
+}

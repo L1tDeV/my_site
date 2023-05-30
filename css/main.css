@@ -78,14 +78,13 @@ section{
     float: left;
     color: white;
     /* margin-left: 4vw; */
-    margin-top: 4vh;
     /* padding: 0 9%; */
 }
 
 .main_txt h1{
     font-size: 5rem;
     font-weight: 600;
-    line-height: 0.1;
+    line-height: 40px;
 }
 
 .main_txt h2{

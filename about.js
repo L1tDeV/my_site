@@ -50,9 +50,9 @@ var Main = function (_React$Component) {
 					)
 				)];
 			} else if (this.state.position == 1) {
-				return React.createElement(
+				return [React.createElement(
 					"div",
-					{ className: "ach_box" },
+					{ className: "ach_box_desk" },
 					React.createElement(
 						"table",
 						{ className: "achiev" },
@@ -158,7 +158,7 @@ var Main = function (_React$Component) {
 										React.createElement(
 											"p",
 											null,
-											"\u201C\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043D\u0430 Python\u201D - \u043F\u043E\u0431\u0435\u0434\u0438\u0442\u0435\u043B\u044C (2023 \u0433.)"
+											"\u201C\u041D\u0430\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C \u043D\u0430 Python\u201D - \u043F\u043E\u0431\u0435\u0434\u0438\u0442\u0435\u043B\u044C (2023 \u0433.)"
 										)
 									)
 								)
@@ -215,7 +215,126 @@ var Main = function (_React$Component) {
 							)
 						)
 					)
-				);
+				), React.createElement(
+					"div",
+					{ className: "ach_box_mob" },
+					React.createElement(
+						"div",
+						{ className: "achiev" },
+						React.createElement(
+							"h2",
+							null,
+							"\u041E\u043B\u0438\u043C\u043F\u0438\u0430\u0434\u044B:"
+						),
+						React.createElement(
+							"div",
+							{ className: "prpl_box" },
+							React.createElement(
+								"div",
+								{ className: "txt_box" },
+								React.createElement(
+									"p",
+									null,
+									"\u0424\u0438\u043D\u0430\u043B\u0438\u0441\u0442 \u041D\u0422\u041E \u043F\u043E \u043F\u0440\u043E\u0444\u0438\u043B\u044E \u201C\u0424\u0438\u043D\u0430\u043D\u0441\u043E\u0432\u044B\u0439 \u0438\u043D\u0436\u0438\u043D\u0438\u0440\u0438\u043D\u0433\u201D (2023 \u0433.)"
+								)
+							)
+						),
+						React.createElement(
+							"h2",
+							null,
+							"\u041A\u043E\u043D\u043A\u0443\u0440\u0441 \u0446\u0438\u0444\u0440\u043E\u0432\u044B\u0445 \u043F\u043E\u0440\u0442\u0444\u043E\u043B\u0438\u043E \u201C\u0422\u0430\u043B\u0430\u043D\u0442 \u041D\u0422\u041E\u201D \u0432 \u043A\u043E\u043C\u043F\u0435\u0442\u0435\u043D\u0446\u0438\u044F\u0445:"
+						),
+						React.createElement(
+							"div",
+							{ className: "prpl_box" },
+							React.createElement(
+								"div",
+								{ className: "txt_box" },
+								React.createElement(
+									"p",
+									null,
+									"\u201C\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0431\u0438\u0437\u043D\u0435\u0441-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\u201D - \u043F\u043E\u0431\u0435\u0434\u0438\u0442\u0435\u043B\u044C (2023 \u0433.)"
+								)
+							)
+						),
+						React.createElement(
+							"div",
+							{ className: "prpl_box" },
+							React.createElement(
+								"div",
+								{ className: "txt_box" },
+								React.createElement(
+									"p",
+									null,
+									"\u201C\u041D\u0430\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C \u043D\u0430 Python\u201D - \u043F\u043E\u0431\u0435\u0434\u0438\u0442\u0435\u043B\u044C (2023 \u0433.)"
+								)
+							)
+						),
+						React.createElement(
+							"div",
+							{ className: "prpl_box" },
+							React.createElement(
+								"div",
+								{ className: "txt_box" },
+								React.createElement(
+									"p",
+									null,
+									"\u201C\u0418\u0441\u043A\u0443\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0439 \u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u201D - \u043F\u0440\u0438\u0437\u0435\u0440 (2023 \u0433.)"
+								)
+							)
+						),
+						React.createElement(
+							"h2",
+							null,
+							"\u041E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u0435:"
+						),
+						React.createElement(
+							"div",
+							{ className: "prpl_box" },
+							React.createElement(
+								"div",
+								{ className: "txt_box" },
+								React.createElement(
+									"p",
+									null,
+									"\u041E\u0441\u043D\u043E\u0432\u043D\u043E\u0435-\u043E\u0431\u0449\u0435\u0435 \u0413\u041E\u0423 \u042F\u041E \u0421\u0428 \u211633"
+								)
+							)
+						)
+					),
+					React.createElement(
+						"div",
+						{ className: "btn_box" },
+						React.createElement(
+							"div",
+							{ className: "btn_nto" },
+							React.createElement(
+								"a",
+								{ href: "https://ntcontest.ru/", target: "_blank" },
+								React.createElement(
+									"div",
+									{ className: "info_btn" },
+									React.createElement(
+										"p",
+										null,
+										"\u0427\u0442\u043E \u0442\u0430\u043A\u043E\u0435 \u041D\u0422\u041E?"
+									)
+								)
+							)
+						),
+						React.createElement(
+							"div",
+							{ className: "btn_back" },
+							React.createElement(
+								"button",
+								{ className: "back_btn", onClick: function onClick() {
+										_this2.setState({ position: 0 });
+									} },
+								"\u041D\u0430\u0437\u0430\u0434"
+							)
+						)
+					)
+				)];
 			}
 		}
 	}]);
